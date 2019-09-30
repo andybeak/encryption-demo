@@ -1,0 +1,22 @@
+{
+    "name": "andybeak/encryption-demo",
+    "description": "Demonstration of encryption in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Beak",
+            "email": "andy.beak@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-sodium" : "*",
+        "paragonie/halite": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "EncryptDemo\\":"src/"
+        }
+    }
+}
